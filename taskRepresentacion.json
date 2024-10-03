@@ -1,0 +1,27 @@
+{
+  "Task": {
+    "id": {
+      "type": "integer",
+      "autoIncrement": true,
+      "primaryKey": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "maxLength": 1000
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "createdBy": {
+      "type": "integer",
+      "required": false
+    }
+  }
+}

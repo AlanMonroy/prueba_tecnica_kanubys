@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // O "CommonJS" ESNext
+    "target": "ES2020", // O la versión que necesites
+    "esModuleInterop": true, // Para interoperabilidad
+    "moduleResolution": "node", //
+    "strict": true // Opcional
+  },
+  "include": ["**/*.ts"], // Incluye todos los archivos TypeScript
+  "exclude": ["node_modules"] // Excluye la carpeta node_modules
+}
